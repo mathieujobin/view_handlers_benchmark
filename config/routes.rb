@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get 'bench/test/haml' => 'bench_test#haml'
   get 'bench/test/slim' => 'bench_test#slim'
   get 'bench/test/builder' => 'bench_test#builder'
+  get 'bench/report' => 'bench_test#report'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase

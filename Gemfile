@@ -40,5 +40,6 @@ gem 'spring',        group: :development
 
 gem 'slim-rails'
 gem 'haml-rails'
+gem 'benchmark-ips'
 
 
