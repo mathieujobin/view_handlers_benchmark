@@ -1,13 +1,16 @@
-html
-	head
-		title t('main.title')
+%html
+	%head
+		%title
+			= t('main.title')
 
-	body
-		h1 t('main.title')
+	%body
+		%h1
+			= t('main.title')
 		- 10.times do
-			p
+			%p
 				- data.each do |x|
-					pre JSON.pretty_generate(x)
+					%pre
+						= JSON.pretty_generate(x)
 		#footer
-			| Copyright © #{year} #{author}
+			Copyright © #{year} #{author}
 

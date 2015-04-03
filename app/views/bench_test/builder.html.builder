@@ -13,7 +13,7 @@ xml.html do
 				end
 			end
 		end
-		xml.div(id:="footer") do
+		xml.div(id:"footer") do
 			xml << "Copyright © #{year} #{author}"
 		end
 	end
