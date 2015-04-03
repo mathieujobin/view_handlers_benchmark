@@ -1,0 +1,13 @@
+html
+	head
+		title t('main.title')
+
+	body
+		h1 t('main.title')
+		- 10.times do
+			p
+				- data.each do |x|
+					pre JSON.pretty_generate(x)
+		#footer
+			| Copyright © #{year} #{author}
+

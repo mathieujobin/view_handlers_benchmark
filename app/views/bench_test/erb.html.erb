@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title><%= t('main.title') %></title>
+	</head>
+	<body>
+		<h1><%= t('main.title') %></h1>
+		<% 10.times do %>
+			<p>
+				<% data.each do |x| %>
+					<pre>
+						<%= JSON.pretty_generate(x) %>
+					</pre>
+				<% end %>
+			</p>
+		<% end %>
+		<div id="footer">
+			Copyright © <%= year %> <%=author%>
+		</div>
+	</body>
+</html>
+
