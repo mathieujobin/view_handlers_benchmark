@@ -1,11 +1,16 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The purpose of this project is to do some benchmark on the different popular rails view handler.
+I know there are already several people doing it and having very interesting blog post about it.
+but every time, one is missing. my favorite. Builder::XmlMarkup
+
+so I will compare erb, haml, slim and builder with very similar views that contains enough stuff to be relevant.
 
 Things you may want to cover:
 
 * Ruby version
+* 4.1.8 for now, as it is the one I had already install on my wife's laptop.
+* 4.2.x and edge later.
 
 * System dependencies
 
